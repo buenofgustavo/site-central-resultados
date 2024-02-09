@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DahsAvariasComponent } from './dahs-avarias.component';
+import { DashLogisticaComponent } from './dash-logistica.component';
 
-describe('DahsAvariasComponent', () => {
-  let component: DahsAvariasComponent;
-  let fixture: ComponentFixture<DahsAvariasComponent>;
+describe('DashLogisticaComponent', () => {
+  let component: DashLogisticaComponent;
+  let fixture: ComponentFixture<DashLogisticaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DahsAvariasComponent ]
+      declarations: [ DashLogisticaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DahsAvariasComponent);
+    fixture = TestBed.createComponent(DashLogisticaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
