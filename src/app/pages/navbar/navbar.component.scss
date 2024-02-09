@@ -1,0 +1,32 @@
+img {
+  width: 8rem ;
+  margin-left: -0.5rem;
+  margin-bottom: 12px;
+}
+
+nb-sidebar {
+  width: 240px !important;
+  margin-top: -20px;
+  z-index: 3;
+}
+
+nb-menu .itens {
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+nb-layout-header {
+  height: 60px !important;
+  overflow: hidden;
+
+}
+
+nb-layout-footer {
+  height: 50px;
+  overflow: hidden; /* Ocultar conteúdo excedente */
+}
+
+.titulo{
+  padding-bottom: 16px;
+}

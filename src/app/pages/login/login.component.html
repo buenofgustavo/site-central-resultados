@@ -1,0 +1,36 @@
+<nb-layout>
+  <nb-layout-header fixed>
+    <img src="/assets/img/logotdm.png" alt="teste">
+  </nb-layout-header>
+
+  <nb-layout-column flex="70">
+    <nb-card class="custom-container card">
+      <nb-card-header>
+        <h2 class="title">Login</h2>
+      </nb-card-header>
+
+      <nb-card-body>
+        <form [formGroup]="loginForm">
+          <div class="input-email">
+
+            <nb-form-field>
+              <label for="usuarioEmail">E-mail</label>
+              <input id="usuarioEmail" nbInput type="email" formControlName="email" placeholder="Digite seu e-mail">            </nb-form-field>
+
+          </div>
+          <div class="input-senha">
+            <nb-form-field>
+              <label for="usuarioSenha">Senha</label>
+              <input id="usuarioSenha" nbInput type="password" formControlName="senha" placeholder="Digite sua senha">
+            </nb-form-field>
+          </div>
+          <button (click)="logar()" class="button-entrar" nbButton status="basic">Entrar</button>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    <p>&copy;2024 TDM Transportes. Todos os direitos reservados.</p>
+  </nb-layout-footer>
+</nb-layout>

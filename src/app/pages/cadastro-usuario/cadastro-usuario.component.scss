@@ -1,0 +1,65 @@
+.card-center {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  border-radius: 20px;
+  max-width: 650px;
+  height: 500px;
+  margin: auto;            /* Ensures horizontal centering within the parent */
+  position: relative;      /* For vertical centering within the parent */
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+// Center the card content vertically
+.nb-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-field{
+  margin-top: 10px;
+}
+.form-field-perfil{
+  margin-top: -10px;
+}
+// Align the search button next to the email input
+.nb-form-field > button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// Make all inputs the same size
+.nb-form-field > input,
+.nb-select {
+  width: 100%;
+}
+
+// Optional: Adjust the image size in the header
+.img-usuario {
+  width: 150px; /* Adjust as needed */
+}
+
+
+// Posiciona o botão de pesquisa ao lado do input de email
+.nb-form-field:first-of-type > button {
+  position: relative;
+  margin-left: 10px;
+  top: 0;
+  transform: translateY(0);
+}
+
+// Ajusta o espaçamento entre os campos
+.nb-form-field {
+  margin-bottom: 15px;
+}
+
+.button{
+  margin-left: 5px;
+}
+
+.input-email{
+  margin-right: 4px;
+}

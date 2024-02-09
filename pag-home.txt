@@ -1,0 +1,67 @@
+<div class="div-main">
+
+  <img src="/assets/img/foto-home.png" alt="teste">
+  <h2>Central de Resultados: Sua Visão Completa da TDM</h2>
+  <h6>Monitore o desempenho, acompanhe as entregas e tome decisões estratégicas com base em dados precisos</h6>
+
+</div>
+
+<nb-card>
+  <nb-card-header>
+    <h3>Histórico de Atualizações</h3>
+  </nb-card-header>
+  <nb-card-body>
+    <ul>
+      <li *ngFor="let update of updates">
+        <span class="date">{{ update.date }}</span> - {{ update.description }}
+      </li>
+    </ul>
+  </nb-card-body>
+</nb-card>
+
+
+img {
+  width: 40%;
+  height: auto;
+}
+
+
+.div-main {
+  margin-top: 25px;
+  text-align: center;
+}
+
+h6{
+  font-size: 16px
+}
+
+nb-card {
+  background-image: url('/assets/img/textura-papel4.jpg');
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nb-card-header {
+  background-image: url('/assets/img/textura-papel4.jpg');
+  padding: 10px;
+}
+
+nb-card-body {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.date {
+  font-size: 12px;
+  color: #777;
+}
