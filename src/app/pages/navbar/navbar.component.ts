@@ -22,8 +22,12 @@ export class NavbarComponent {
       title: 'Dashboards',
       icon: 'eye-outline',
       children: [
-        { title: 'Dashboard Performance', link: '/dash-performance', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_PERFORMACE']) },
-        { title: 'Dashboard Devolução', link: '/dash-avarias', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Performance', link: '/dash-performance', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_PERFORMACE']) },
+        { title: 'Jurídico', link: '/dash-juridico', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Contas a receber', link: '/dash-contas-a-receber', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Emissão de Docs', link: '/dash-emissao-docs', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Ocorrências', link: '/dash-ocorrencias', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Logística', link: '/dash-logistica', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
       ],
     },
     {

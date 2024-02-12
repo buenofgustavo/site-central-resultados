@@ -9,7 +9,7 @@
           <nb-form-field class="form-field">
             <label for="usuarioEmail">E-mail</label>
             <div style="display: flex;">
-              <input class="input-email" id="usuarioEmail" nbInput placeholder="usuario@tdmlogistica.com.br" [(ngModel)]="user.email" name="email">
+              <input class="input-email" id="usuarioEmail" nbInput placeholder="" [(ngModel)]="user.email" name="email">
               <button nbButton (click)="findByEmail()"><nb-icon icon="search"></nb-icon></button>
             </div>
           </nb-form-field>
@@ -21,13 +21,13 @@
 
           <nb-form-field class="form-field">
             <label for="usuarioSenha">Senha</label>
-            <input id="usuarioSenha" nbInput type="password" placeholder="Placeholder" [(ngModel)]="user.senha" name="senha">
+            <input id="usuarioSenha" nbInput type="password" placeholder="" [(ngModel)]="user.senha" name="senha">
             <nb-icon icon="sentiment_very_satisfied"></nb-icon>
           </nb-form-field>
 
           <nb-form-field class="form-field-perfil">
             <label for="perfil">Perfil</label>
-            <nb-select multiple placeholder="Multiple Select" [(ngModel)]="user.perfis" name="perfis">
+            <nb-select multiple placeholder="" [(ngModel)]="user.perfis" name="perfis">
               <nb-option *ngFor="let perfil of perfis" [value]="perfil.value" >
                 {{perfil.viewValue}}
               </nb-option>

@@ -22,6 +22,11 @@ export class CadastroUsuarioComponent {
     { value: 0, viewValue: 'Administrador' },
     { value: 1, viewValue: 'Dash Performance' },
     { value: 2, viewValue: 'Diaria PJ' },
+    { value: 3, viewValue: 'Dash Jurídico' },
+    { value: 4, viewValue: 'Dash Contas a Receber' },
+    { value: 5, viewValue: 'Dash Emissão de Docs' },
+    { value: 6, viewValue: 'Dash Ocorrências' },
+    { value: 7, viewValue: 'Dash Logística' },
   ];
 
   constructor(

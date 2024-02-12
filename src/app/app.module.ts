@@ -24,11 +24,17 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastroUsuarioComponent } from './pages/cadastro-usuario/cadastro-usuario.component';
-import { DashPerformanceComponent } from './pages/dash-performance/dash-performance.component';
+import { DashPerformanceComponent } from './pages/dashboards/dash-performance/dash-performance.component';
 import { DiariaPjComponent } from './pages/diaria-pj/diaria-pj.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
+import { DashJuridicoComponent } from './pages/dashboards/dash-juridico/dash-juridico.component';
+import { DashContasAReceberComponent } from './pages/dashboards/dash-contas-a-receber/dash-contas-a-receber.component';
+import { DashEmissaoDocsComponent } from './pages/dashboards/dash-emissao-docs/dash-emissao-docs.component';
+import { DashOcorrenciasComponent } from './pages/dashboards/dash-ocorrencias/dash-ocorrencias.component';
+import { DashLogisticaComponent } from './pages/dashboards/dash-logistica/dash-logistica.component';
+
 
 
 
@@ -43,6 +49,12 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
     LoginComponent,
     DashPerformanceComponent,
     DiariaPjComponent,
+    DashJuridicoComponent,
+    DashContasAReceberComponent,
+    DashEmissaoDocsComponent,
+    DashOcorrenciasComponent,
+    DashLogisticaComponent,
+
   ],
   imports: [
     BrowserModule,
