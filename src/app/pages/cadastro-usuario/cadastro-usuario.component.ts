@@ -27,6 +27,9 @@ export class CadastroUsuarioComponent {
     { value: 5, viewValue: 'Dash Emissão de Docs' },
     { value: 6, viewValue: 'Dash Ocorrências' },
     { value: 7, viewValue: 'Dash Logística' },
+    { value: 8, viewValue: 'Dash Contas a Pagar' },
+    { value: 9, viewValue: 'Dash GR' },
+
   ];
 
   constructor(

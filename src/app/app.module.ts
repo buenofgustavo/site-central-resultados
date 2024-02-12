@@ -34,6 +34,8 @@ import { DashContasAReceberComponent } from './pages/dashboards/dash-contas-a-re
 import { DashEmissaoDocsComponent } from './pages/dashboards/dash-emissao-docs/dash-emissao-docs.component';
 import { DashOcorrenciasComponent } from './pages/dashboards/dash-ocorrencias/dash-ocorrencias.component';
 import { DashLogisticaComponent } from './pages/dashboards/dash-logistica/dash-logistica.component';
+import { DashContasAPagarComponent } from './pages/dashboards/dash-contas-a-pagar/dash-contas-a-pagar.component';
+import { DashGrComponent } from './pages/dashboards/dash-gr/dash-gr.component';
 
 
 
@@ -54,6 +56,8 @@ import { DashLogisticaComponent } from './pages/dashboards/dash-logistica/dash-l
     DashEmissaoDocsComponent,
     DashOcorrenciasComponent,
     DashLogisticaComponent,
+    DashContasAPagarComponent,
+    DashGrComponent,
 
   ],
   imports: [

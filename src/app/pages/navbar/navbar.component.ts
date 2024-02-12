@@ -28,6 +28,8 @@ export class NavbarComponent {
         { title: 'Emissão de Docs', link: '/dash-emissao-docs', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
         { title: 'Ocorrências', link: '/dash-ocorrencias', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
         { title: 'Logística', link: '/dash-logistica', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'Contas a Pagar', link: '/dash-contas-a-pagar', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
+        { title: 'GR', link: '/dash-gr', hidden: !this.authService.hasPermission(['ROLE_ADMIN']) },
       ],
     },
     {
