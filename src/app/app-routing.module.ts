@@ -15,6 +15,7 @@ import { DashOcorrenciasComponent } from './pages/dashboards/dash-ocorrencias/da
 import { DashLogisticaComponent } from './pages/dashboards/dash-logistica/dash-logistica.component';
 import { DashContasAPagarComponent } from './pages/dashboards/dash-contas-a-pagar/dash-contas-a-pagar.component';
 import { DashGrComponent } from './pages/dashboards/dash-gr/dash-gr.component';
+import { DashComparacaoFaturamentoComponent } from './pages/dashboards/dash-comparacao-faturamento/dash-comparacao-faturamento.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,7 @@ const routes: Routes = [
          children: [
         { path: 'home', component: HomeComponent },
         { path: 'dash-performance', component: DashPerformanceComponent },
+        { path: 'comparacao-faturamento', component: DashComparacaoFaturamentoComponent },
         { path: 'cadastro-usuario', component: CadastroUsuarioComponent },
         { path: 'diaria-pj', component: DiariaPjComponent },
         { path: 'dash-juridico', component: DashJuridicoComponent },

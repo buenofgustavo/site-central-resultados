@@ -21,6 +21,7 @@ export class NavbarComponent {
       icon: 'eye-outline',
       children: [
         { title: 'Performance', link: '/dash-performance', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_PERFORMACE']) },
+        { title: 'Faturamento 2024 x 2023', link: '/comparacao-faturamento', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_PERFORMACE']) },
         { title: 'Jurídico', link: '/dash-juridico', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_JURIDICO']) },
         { title: 'Contas a receber', link: '/dash-contas-a-receber', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_CONTASAREC']) },
         { title: 'Emissão de Docs', link: '/dash-emissao-docs', hidden: !this.authService.hasPermission(['ROLE_ADMIN','ROLE_EMISSAO']) },

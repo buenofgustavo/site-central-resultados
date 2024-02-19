@@ -36,6 +36,7 @@ import { DashOcorrenciasComponent } from './pages/dashboards/dash-ocorrencias/da
 import { DashLogisticaComponent } from './pages/dashboards/dash-logistica/dash-logistica.component';
 import { DashContasAPagarComponent } from './pages/dashboards/dash-contas-a-pagar/dash-contas-a-pagar.component';
 import { DashGrComponent } from './pages/dashboards/dash-gr/dash-gr.component';
+import { DashComparacaoFaturamentoComponent } from './pages/dashboards/dash-comparacao-faturamento/dash-comparacao-faturamento.component';
 
 
 
@@ -58,6 +59,7 @@ import { DashGrComponent } from './pages/dashboards/dash-gr/dash-gr.component';
     DashLogisticaComponent,
     DashContasAPagarComponent,
     DashGrComponent,
+    DashComparacaoFaturamentoComponent,
 
   ],
   imports: [
